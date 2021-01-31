@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.back{
+	background-image: url(2.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+
+.signup{
+	width: 600px;
+	height: 500px;
+	
+	margin-left: 30px;
+	padding-top: 50px;
+}
+.size{
+	width: 500px;
+	height: 30px;
+margin:5px;
+border-radius: 25px;
+padding-left: 50px;
+background-color: rgba(0,0,0,0.2);
+}
+.gen{
+	margin-left: 50px;
+
+}
+
+.regis{
+	width: 100px;
+	height: 40px;
+	border-radius:25px;
+	margin-left: 100px;
+	margin-top: 16px;
+	background-color: lightgreen;
+}
+.login{
+	position: relative;
+	margin-left: 200px;
+	margin-top: -40px;
+	left: 20px;
+	width: 100px;
+	background-color:red;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 25px;
+}
+.login a{
+	padding-left: 30px;
+	line-height: 35px;
+	color: white;
+display: block;;
+	text-decoration: none;;
+}
+
+
+.login:hover{
+	 background: linear-gradient(skyblue,red)
+}
+
+.collage{
+	position: absolute;
+	float: right;
+	top: 0px;
+	left: 750px;
+	top: 80px;
+}
+.collage h1{
+	color: white;
+	font-size: 50px;
+	animation: sani 2s linear infinite;
+}
+@keyframes sani{
+	0%{
+		color: red;
+	}
+	25%{
+		color: pink;	
+	}
+	50%{
+		color: grey;
+	}
+	75%{
+		color: yellow;
+	}
+	100%{
+			color: green;
+	}
+}
+
+#typewriter{
+	margin-top: -300px;
+	margin-left: 650px;
+	
+}
+#typewriter h2{
+	font-size: 50px;
+	text-transform: capitalize;
+	color: white;
+	 animation: move 3s infinite steps(30);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white;
+
+}
+
+
+@keyframes move{
+    0%{
+        width: 0px;
+    }
+    
+    100%{
+        width: 100%;
+    }
+}
